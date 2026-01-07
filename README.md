@@ -65,45 +65,11 @@ The engine moves beyond simple prediction to **optimization**:
 3. **Revenue Optimization**: Finds $P^*$ where $\frac{d}{dP}(P \cdot D(P)) = 0$.
 4. **Sanity Constraints**: Applies realistic probability caps (e.g., max 50% occupancy) to prevent over-optimistic predictions.
 
-## 🧠 How It Works: The Algorithm
-
-The project uses a transparent, physics-based economic approach (no "Black Box" AI).
-
-### 1. Data Processing
-**Goal:** Prepare a clean, reliable dataset.
-*   **Ingestion:** Loads 10+ city datasets (~51,000 listings).
-*   **Demand Proxy:** Calculates an "Estimated Demand" score (0-1) based on:
-    *   **Review Scores:** Higher ratings $\rightarrow$ higher demand.
-    *   **Superhost Status:** Superhosts $\rightarrow$ higher demand.
-    *   **Relative Price:** Cheaper vs. City Median $\rightarrow$ higher demand.
-
-### 2. Market Parameter Estimation
-Before optimizing, we measure the "physics" of the local market:
-*   **Reference Price ($P_{ref}$):** The median price of the city (e.g., \$455 in Amsterdam vs \$128 in Athens).
-*   **Base Demand ($D_0$):** The estimated booking rate at the reference price (typically 40%).
-*   **Price Sensitivity ($\lambda$):** Calculated from the price variance (Coefficient of Variation) in the market. High variance = high price sensitivity.
-
-### 3. The Demand Curve
-We use an **Exponential Demand Function** to model elasticity:
-$$ D(P) = D_{base} \cdot e^{-\lambda \times \left( \frac{P - P_{ref}}{P_{ref}} \right)} $$
-*   **Logic:** As price ($P$) goes above the market median ($P_{ref}$), demand drops exponentially.
-*   **Safety:** We apply a hard cap (max 50% occupancy) to prevent unrealistic predictions.
-
-### 4. Revenue Optimization
-**Goal:** Find the price $P^*$ that maximizes expected revenue.
-$$ R(P) = P \times D(P) $$
-1.  **Grid Search:** Test 100 possible prices (e.g., \$20 to \$500).
-2.  **Predict:** Calculate booking probability for each price.
-3.  **Maximize:** Select the price yieldling the highest total revenue.
-
-### 5. City-Level Segmentation
-The engine runs this optimization **independently for every city**. A "good price" is contextual—\$200 is optimal in Amsterdam but expensive in Athens.
-
-## 🏆 Results (European Data)
+## 🏆 Results (European Market)
 On a dataset of 51,000+ listings across 10 cities:
 - **Optimal Price**: $189.70 (vs Median $211)
 - **Revenue Uplift**: **+12.4%** expected revenue increase vs median pricing.
 - **Elasticity**: -0.95 (Unit elastic demand).
 
 ---
-
+*Created for Quantitative Finance & Data Science Portfolio.*
