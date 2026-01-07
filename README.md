@@ -105,4 +105,3 @@ On a dataset of 51,000+ listings across 10 cities:
 - **Elasticity**: -0.95 (Unit elastic demand).
 
 ---
-*Created for Quantitative Finance & Data Science Portfolio.*
