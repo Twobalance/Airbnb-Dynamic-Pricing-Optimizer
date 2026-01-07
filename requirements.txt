@@ -1,8 +1,7 @@
 pandas
 numpy
-xgboost
-scikit-learn
 matplotlib
 seaborn
+kaggle
 jupyter
 nbconvert
