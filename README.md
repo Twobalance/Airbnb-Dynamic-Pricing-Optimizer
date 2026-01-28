@@ -275,7 +275,7 @@ If you use this work in academic research, please cite:
   author = {[Author Name]},
   year = {2026},
   publisher = {GitHub},
-  url = {https://github.com/yourusername/Airbnb-Dynamic-Pricing-Optimizer}
+  url = {https://github.com/Twobalance/Airbnb-Dynamic-Pricing-Optimizer}
 }
 ```
 
