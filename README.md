@@ -1,8 +1,6 @@
 # Airbnb Dynamic Pricing Optimizer
 
-<p align="center">
-  <img src="docs/images/methodology_visualization.png" alt="Dynamic Pricing Analysis" width="100%">
-</p>
+
 
 <p align="center">
   <a href="#overview">Overview</a> •
