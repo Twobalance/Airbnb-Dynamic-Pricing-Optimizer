@@ -10,7 +10,7 @@
   <a href="#results">Results</a> •
   <a href="#installation">Installation</a> •
   <a href="#usage">Usage</a> •
-  <a href="#citation">Citation</a>
+  
 </p>
 
 <p align="center">
@@ -265,19 +265,7 @@ All optimization results pass rigorous sanity checks:
 
 ---
 
-## Citation
 
-If you use this work in academic research, please cite:
-
-```bibtex
-@software{airbnb_dynamic_pricing_2026,
-  title = {Airbnb Dynamic Pricing Optimizer: A Revenue Maximization Framework},
-  author = {[Author Name]},
-  year = {2026},
-  publisher = {GitHub},
-  url = {https://github.com/Twobalance/Airbnb-Dynamic-Pricing-Optimizer}
-}
-```
 
 ---
 
