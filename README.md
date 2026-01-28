@@ -143,7 +143,7 @@ The dataset exhibits substantial price variation across markets, with Amsterdam 
 
 ```bash
 # Clone the repository
-git clone https://github.com/yourusername/Airbnb-Dynamic-Pricing-Optimizer.git
+git clone https://github.com/Twobalance/Airbnb-Dynamic-Pricing-Optimizer.git
 cd Airbnb-Dynamic-Pricing-Optimizer
 
 # Create virtual environment
@@ -292,8 +292,3 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 - Kaggle for providing the European Airbnb pricing dataset
 - The open-source Python scientific computing community
 
----
-
-<p align="center">
-  <b>⭐ If this project helps your research, please consider starring the repository ⭐</b>
-</p>
