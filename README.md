@@ -278,3 +278,15 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 - Kaggle for providing the European Airbnb pricing dataset
 - The open-source Python scientific computing community
 
+### References
+
+The mathematical framework and revenue optimization logic used in this project are derived from the following foundational works:
+
+**[Phillips, 2005]** Phillips, R. L. (2005). *Pricing and Revenue Optimization*. Stanford University Press.
+> **Application:** Justifies the use of the **Exponential Price Response Function** (Equation 1). See **Chapter 3** for the derivation of how booking probability $D(P)$ decays exponentially as price increases relative to sensitivity $\lambda$.
+
+**[Talluri & van Ryzin, 2004]** Talluri, K. T. and van Ryzin, G. J. (2004). *The Theory and Practice of Revenue Management*. Springer Science+Business Media.
+> **Application:** Provides the standard formulation for the **Revenue Maximization Problem** (Equation 2). See **Chapter 5 (Single-Resource Capacity Control)** for the mathematical proof of finding the optimal price $P^*$ that maximizes expected value $P \times D(P)$.
+
+**[Kahneman & Tversky, 1979]** Kahneman, D. and Tversky, A. (1979). Prospect theory: An analysis of decision under risk. *Econometrica*, 47(2):263–291.
+> **Application:** Supports the inclusion of the **Reference Price ($P_{ref}$)** in the demand model. This implies that customer demand is driven by the *deviation* from a market norm (median city price) rather than the absolute price alone.
