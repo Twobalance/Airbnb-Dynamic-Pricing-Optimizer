@@ -280,5 +280,12 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 
 ###  References
 
-**[Phillips, 2005]** Phillips, R. L. (2005). *Pricing and Revenue Optimization*. Stanford University Press, pp. 46–51.
+
+* **[Phillips, 2005]** Phillips, R. L. (2005). *Pricing and Revenue Optimization*. Stanford University Press:46–51.
+
+* **[Talluri & Van Ryzin, 2004]** Talluri, K. T., & Van Ryzin, G. J. (2004). *The Theory and Practice of Revenue Management*. Springer US.
+* **[Yeoman & McMahon-Beattie, 2004]** Yeoman, I., & McMahon-Beattie, U. (2004). *Revenue Management and Pricing: Case Studies and Applications*. Thomson Learning.
+* **[Gallego & Van Ryzin, 1994]** Gallego, G., & Van Ryzin, G. (1994). Optimal dynamic pricing of inventories with stochastic demand over finite horizons. *Management Science*, 40(8):999–1020.
+
+* **[Gibbs et al., 2018]** Gibbs, C., Guttentag, D., Gretzel, U., Morton, J., & Benoit, A. (2018). Pricing in the sharing economy: A hedonic pricing model applied to Airbnb listings. *Journal of Travel & Tourism Marketing*, 35(1):46–56.
 
